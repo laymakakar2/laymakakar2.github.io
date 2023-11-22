@@ -1,4 +1,37 @@
+/* General margin styling for the body or container */
+body, .container {
+    margin: 0 auto;
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+/* Style for navigation bar */
+header nav {
+    background-color: #f8f8f8; /* Background color for the navbar */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+
+/* Style for navigation links */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Removes default margin */
+    display: flex; /* Aligns items in a row */
+    justify-content: center; /* Centers the navigation items */
+}
+
+header nav ul li {
+    margin: 0 10px; /* Spacing between menu items */
+}
+
 header nav ul li a {
-    color: black; /* Set text color to black */
-    font-weight: bold; /* Make text bold */
+    text-decoration: none;
+    color: #333; /* Default text color */
+    font-size: 16px; /* Adjust size as needed */
+}
+
+/* Specific style for 'Home' and 'IT Ethics' buttons */
+header nav ul li a[href="index.html"],
+header nav ul li a[href="it-ethics.html"] {
+    color: black; /* Black text color */
+    font-weight: bold; /* Bold font weight */
 }
