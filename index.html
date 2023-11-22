@@ -1,32 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        td {
-            border: 1px solid black;
-            padding: 2px;
-            text-align: left;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <table>
-        <tr>
-            <td>Name</td>
-            <td>Layma Kakar</td>
-        </tr>
-        <tr>
-            <td>Introduction</td>
-            <td>Hello, I am a junior in the BS IT program. I enjoy coding in Python, and HTML </td>
-        </tr>
-        <tr>
-            <td>Hobbies</td>
-            <td>Hiking, Swimming, reading, watching movies, and gym</td>
-        </tr>
-    </table>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo" class="logo"> <!-- Your Logo -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#ethics">IT Ethics</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container">
+                <h1>Welcome to Our Tech World</h1>
+                <p>Exploring innovation and ethical practices in technology.</p>
+            </div>
+        </section>
+
+        <!-- IT Ethics Section -->
+        <section id="ethics">
+            <div class="container">
+                <h2>IT Ethics: Responsibility in Technology</h2>
+                <p>In the dynamic world of information technology, ethical considerations are paramount. Our commitment is to ensure responsible use and development of technology. Key focus areas include data privacy, ethical AI, sustainable tech, and more.</p>
+                <!-- More content here -->
+            </div>
+        </section>
+
+        <!-- Other sections like About, Contact etc. -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
