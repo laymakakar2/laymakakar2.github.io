@@ -1,37 +1,61 @@
-/* General margin styling for the body or container */
-body, .container {
-    margin: 0 auto;
-    padding: 0 20px; /* Adjust padding as needed */
-}
-
-/* Style for navigation bar */
-header nav {
-    background-color: #f8f8f8; /* Background color for the navbar */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
-}
-
-/* Style for navigation links */
-header nav ul {
-    list-style-type: none;
+/* Body and Overall Page Styling */
+body {
+    background-color: lightblue; /* Sets the background color to light blue */
+    font-family: Arial, sans-serif; /* Sets a default font */
+    margin: 0;
     padding: 0;
-    margin: 0; /* Removes default margin */
-    display: flex; /* Aligns items in a row */
-    justify-content: center; /* Centers the navigation items */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    min-height: 100vh; /* Full viewport height */
 }
 
-header nav ul li {
-    margin: 0 10px; /* Spacing between menu items */
+/* Container Styling */
+.container {
+    text-align: center; /* Centers text horizontally */
+    padding: 20px;
+    margin: auto;
+    max-width: 800px; /* Adjust width as per your design */
 }
 
-header nav ul li a {
+/* Header and Navigation Styling */
+header {
+    background-color: #fff; /* White background for the header */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers navigation items */
+}
+
+nav ul li {
+    margin: 0 10px; /* Spacing between navigation items */
+}
+
+nav ul li a {
     text-decoration: none;
-    color: #333; /* Default text color */
-    font-size: 16px; /* Adjust size as needed */
+    color: black; /* Black text color */
+    font-weight: normal; /* Normal font weight */
 }
 
-/* Specific style for 'Home' and 'IT Ethics' buttons */
-header nav ul li a[href="index.html"],
-header nav ul li a[href="it-ethics.html"] {
-    color: black; /* Black text color */
+/* Specific Style for 'IT Ethics' Button */
+nav ul li a[href="it-ethics.html"] {
     font-weight: bold; /* Bold font weight */
+    font-size: 1.2em; /* Larger font size */
+}
+
+/* Main Section Styling */
+main {
+    padding: 20px 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #fff; /* White background for the footer */
+    padding: 10px 0;
+    text-align: center;
 }
